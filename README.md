@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-site-using-css-and-bootstrap-868Rk1jRZ#comment-611c9b2330d21659ace4be54)
-- Live Site URL: [Live Site URL]( https://nees101.github.io/Order-Summary-Component-Solution/)
+- Solution URL: [nees101/frontendmentor](https://www.frontendmentor.io/solutions/responsive-site-using-css-and-bootstrap-868Rk1jRZ#comment-611c9b2330d21659ace4be54)
+- Live Site URL: [nees101/github.io]( https://nees101.github.io/Order-Summary-Component-Solution/)
 
 ## My process
 
