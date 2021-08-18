@@ -47,36 +47,20 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
+- Implementing variable width column layouts.
+- Creating responsive design using media queries.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to learn and use Flexbox in order to create the same column layout. Also responsive design is still not my strength and so would like to deep dive on that area.
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools](https://www.w3schools.com/) - It is a very good resource where you can find lot of tutorials, references, and examples of HTML and CSS styles. I'd recommend this to anyone who is starting off with web development and designing.
+
+- [Bootstrap documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - I learned to implement all the bootstrap styles from this documentation. It was pretty useful and easy to understand with lots of examples.
+
 
 ## Author
 
