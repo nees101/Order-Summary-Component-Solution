@@ -22,7 +22,7 @@
   <style>
     body {
       margin: 0;
-      background: url("images/pattern-background-desktop.svg") no-repeat;
+      background: url("images/pattern-background-desktop.svg") no-repeat width:100% background-size:100% 100%;
       background-color: hsl(225, 100%, 94%);
       font-family: 'Red Hat Display', sans-serif;
       color: hsl(224, 23%, 55%);
@@ -47,6 +47,7 @@
 
     .card-title {
       font-weight: 900;
+      font-size:1.7rem;
       color: hsl(223, 47%, 23%);
       line-height: 2;
     }
@@ -130,6 +131,9 @@
         width: 20rem;
         max-width: 100%;
       }
+      .card-title{
+        font-size:1.4rem;
+      }
 
       .card-body {
         padding: 8%;
@@ -148,39 +152,41 @@
 </head>
 
 <body>
+  <main>
   <div class="card mx-auto text-center">
-    <img src="images/illustration-hero.svg" class="card-img-top" alt="entertainment">
-    <div class="card-body">
-      <h3 class="card-title">Order Summary</h3>
-      <p class="card-text"> You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <div class="row pricing border-rounded align-items-center">
-        <div class="col-auto ">
-          <img src="images/icon-music.svg" alt="Music-icon">
-        </div>
-        <div class="col text-start plan-option">
-          <strong class="plan">Annual Plan</strong>
-          <p>$59.99/year </p>
-        </div>
+      <img src="images/illustration-hero.svg" class="card-img-top" alt="entertainment">
+      <div class="card-body">
+        <h1 class="card-title">Order Summary</h1>
+        <p class="card-text"> You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+        <div class="row pricing border-rounded align-items-center">
+          <div class="col-auto ">
+            <img src="images/icon-music.svg" alt="Music-icon">
+          </div>
+          <div class="col text-start plan-option">
+            <strong class="plan">Annual Plan</strong>
+            <p>$59.99/year </p>
+          </div>
 
-        <div class="col-auto ">
-          <a href="#" class="change-plan">Change</a>
+          <div class="col-auto ">
+            <a href="#" class="change-plan">Change</a>
+          </div>
         </div>
+        <button type="button" class="btn btn-primary btn-lg w-100 mx-auto shadow-lg pay ">Proceed to Payment</button>
+        <button type="button" class="cancel-order btn btn-link">Cancel Order</button>
       </div>
-      <button type="button" class="btn btn-primary btn-lg w-100 mx-auto shadow-lg pay ">Proceed to Payment</button>
-      <button type="button" class="cancel-order btn btn-link">Cancel Order</button>
     </div>
-  </div>
+  </main>
 
 
-
+<footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     &nbsp
     Coded by <a href="#">Neethu S. Nair</a>.
   </div>
-  </div>
+  </footer>
 </body>
 
 </html>
